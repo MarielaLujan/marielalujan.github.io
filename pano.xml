@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="5.2.3" apprev="15990">
+  <panorama id="node1">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-2.2" levelingroll="1.4" overlap="1" height="1344" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="86" pan="-5.48" projection="4" tilt="-29.44"/>
+      <flyin fov="86" pan="-5.48" projection="4" tilt="-29.44"/>
+      <min fov="86" pan="0" tilt="-90"/>
+      <max fov="86" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.183497" description="" customnodeid="" author="" datetime="25/4/18 16:16" comment="" longitude="-3.603242" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="Recorre el camino oscuro hacia el asesinato del poeta" skinid="ht_node" pan="-60.87" url="{node20}" id="Anochece antes de tiempo" tilt="-23.4" title="Asesinato del poeta" target=""/>
+      <hotspot description="" skinid="ht_node" pan="43.6" url="{node58}" id="Point01" tilt="-25.46" title="Infancia y educación" target=""/>
+      <hotspot description="" skinid="ht_node" pan="4.37" url="{node50}" id="Point02" tilt="-46.2" title="Obra y legado" target=""/>
+      <hotspot description="" skinid="ht_url" pan="-179.62" url="https://marielalujan.github.io/" id="Point03" tilt="-2.18" title="" target="_blank"/>
+    </hotspots>
+    <media>
+      <image fov="30.000" rotx="-36.000" width="700" clickmode="0" pan="-96.220" handcursor="0" roty="-10.000" id="Element06" stretch="1.000" tilt="-24.950" height="307" rotz="2.000">
+        <source url="media/A0.2Texto.png"/>
+      </image>
+      <image fov="42.226" rotx="-3.000" width="1093" clickmode="0" pan="-39.040" handcursor="0" roty="-27.000" id="Element01" stretch="1.000" tilt="-30.730" height="377" rotz="-17.000">
+        <source url="media/A0. Logo.png"/>
+      </image>
+      <image fov="30.679" rotx="-14.000" width="783" clickmode="0" pan="-62.730" handcursor="0" roty="-50.000" id="Element08" stretch="1.000" tilt="-26.890" height="98" rotz="-34.000">
+        <source url="media/Anochece antes de tiempo2.png"/>
+      </image>
+      <image fov="35.000" rotx="-1.000" width="537" clickmode="0" pan="43.980" handcursor="0" roty="36.000" id="Element02" stretch="1.000" tilt="-31.000" height="68" rotz="32.000">
+        <source url="media/Amanece en Granada2.png"/>
+      </image>
+      <image fov="30.340" rotx="7.000" width="985" clickmode="1" pan="95.690" handcursor="1" roty="3.000" id="Element03" stretch="1.000" tilt="-24.520" height="1316" rotz="4.000">
+        <source url="media/A0.3Texto.png"/>
+      </image>
+      <image fov="32.887" rotx="0.000" width="452" clickmode="0" pan="4.940" handcursor="0" roty="0.000" id="Element07" stretch="1.000" tilt="-49.860" height="86" rotz="7.000">
+        <source url="media/Un día para crear 2.png"/>
+      </image>
+      <image fov="8.436" rotx="0.000" width="1197" clickmode="0" pan="-179.690" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="6.240" height="1634" rotz="0.000">
+        <source url="media/Proyecto y autora.jpg"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-59.530" pansize="10.000" id="Element05" tiltsize="10.000" loop="1" tilt="27.290">
+        <source url="media/Audio Intro.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node58">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="2.7" levelingroll="1.9" overlap="1" height="1344" leveltileurl="tiles/node58/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="102.6" pan="-3.18" projection="4" tilt="4.87"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.220631" description="" customnodeid="" author="" datetime="19/04/2018 11:36" comment="" longitude="-3.784633" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-3.79" url="{node66}" id="Point01" tilt="-0.35" title="Entrar" target=""/>
+      <hotspot description="" skinid="ht_node" pan="-95.37" url="{node69}" id="Point04" tilt="-2.74" title="Ir a iglesia" target="3.4/1.5/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="77.78" url="{node1}" id="Point02" tilt="0.58" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="6.733" rotx="0.000" width="630" clickmode="0" pan="-3.740" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="-7.150" height="630" rotz="2.000">
+        <source url="media/flecha intro.png"/>
+      </image>
+      <image fov="19.417" rotx="0.000" width="858" clickmode="0" pan="-95.030" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-7.320" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="12.076" rotx="0.000" width="678" clickmode="0" pan="77.370" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-3.910" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="30.000" rotx="0.000" width="485" clickmode="4" pan="58.490" handcursor="1" roty="0.000" id="Element01" stretch="1.000" tilt="-30.890" height="387" rotz="0.000">
+        <source url="media/A1.1Fuente Vaqueros.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="81.080" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="13.950">
+        <source url="media/A01. luna_luna.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node66">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="1.2" levelingroll="-0.7" overlap="1" height="1344" leveltileurl="tiles/node66/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="315" fovmode="0">
+      <start fov="90.7" pan="8.53" projection="4" tilt="-11.95"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.220594" description="" customnodeid="" author="" datetime="19/04/2018 11:24" comment="" longitude="-3.784614" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="168.67" url="{node67}" id="Point01" tilt="-7.47" title="Ver aficiones del poeta" target="-14.9/-4.6/102.4"/>
+      <hotspot description="" skinid="ht_node" pan="141.48" url="{node58}" id="Point02" tilt="7.61" title="Salir de la casa" target="-3.2/4.9/102.6"/>
+    </hotspots>
+    <media>
+      <image fov="27.523" rotx="0.000" width="613" clickmode="0" pan="37.440" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="-15.870" height="383" rotz="0.000">
+        <source url="media/A2.2.Cuna.png"/>
+      </image>
+      <image fov="30.713" rotx="0.000" width="797" clickmode="0" pan="-89.350" handcursor="0" roty="2.000" id="Element02" stretch="1.000" tilt="-11.570" height="304" rotz="4.000">
+        <source url="media/A2.1.Cuna.png"/>
+      </image>
+      <image fov="19.915" rotx="0.000" width="858" clickmode="0" pan="168.110" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-12.260" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="13.303" rotx="0.000" width="678" clickmode="0" pan="140.660" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="2.270" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="18.530" pansize="10.000" id="Element03" tiltsize="10.000" loop="1" tilt="32.260">
+        <source url="media/A02. Cuna. La solea (Alberti).mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node67">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-2.3" levelingroll="1.3" overlap="1" height="1344" leveltileurl="tiles/node67/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="45" fovmode="0">
+      <start fov="102.4" pan="-14.9" projection="4" tilt="-4.63"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.220689" description="" customnodeid="" author="" datetime="19/04/2018 11:15" comment="" longitude="-3.784369" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="95.23" url="{node66}" id="Point02" tilt="-8.01" title="Volver a habitación" target="8.5/-11.9/90.7"/>
+      <hotspot description="" skinid="ht_node" pan="-133.42" url="{node69}" id="Point03" tilt="-1.2" title="Ir a iglesia " target="3.4/1.5/120.0"/>
+    </hotspots>
+    <media>
+      <image fov="34.585" rotx="-26.000" width="753" clickmode="0" pan="133.320" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="0.740" height="235" rotz="0.000">
+        <source url="media/A3.2.Piano.png"/>
+      </image>
+      <image fov="31.063" rotx="-26.000" width="737" clickmode="0" pan="43.280" handcursor="0" roty="-22.000" id="Element03" stretch="1.000" tilt="-1.240" height="198" rotz="0.000">
+        <source url="media/A3.3.Piano.png"/>
+      </image>
+      <image fov="27.040" rotx="0.000" width="751" clickmode="0" pan="73.920" handcursor="0" roty="-12.000" id="Element06" stretch="1.000" tilt="23.540" height="138" rotz="-5.000">
+        <source url="media/A3.4Guia.png"/>
+      </image>
+      <image fov="22.040" rotx="0.000" width="858" clickmode="0" pan="-135.020" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-6.110" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="14.400" rotx="0.000" width="678" clickmode="0" pan="94.000" handcursor="0" roty="0.000" id="Element07" stretch="1.000" tilt="-13.330" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <sound level="1.000" mode="3" field="90.000" ambientlevel="0.000" pan="32.920" pansize="10.000" id="Element04" tiltsize="10.000" loop="1" tilt="23.070">
+        <source url="media/A03.1. Guía Museo.mp3"/>
+      </sound>
+      <sound level="1.000" mode="3" field="90.000" ambientlevel="0.000" pan="-84.840" pansize="10.000" id="Element05" tiltsize="10.000" loop="1" tilt="22.450">
+        <source url="media/A03.2. Piano.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node69">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-0.7" levelingroll="1.8" overlap="1" height="1344" leveltileurl="tiles/node69/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="247.5" fovmode="0">
+      <start fov="120" pan="3.41" projection="4" tilt="1.48"/>
+      <flyin fov="120" pan="3.41" projection="4" tilt="1.48"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.220058" description="" customnodeid="" author="" datetime="19/04/2018 11:39" comment="" longitude="-3.784183" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-169.85" url="{node44}" id="Point03" tilt="9.1" title="Ir a casa Valderrubio" target="11.0/10.2/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="90.13" url="{node58}" id="Point02" tilt="6.35" title="Volver a casa natal" target="-4.2/7.3/102.6"/>
+      <hotspot description="" skinid="ht_node" pan="133.74" url="{node1}" id="Point01" tilt="-10.68" title="Ir a presentación" target=""/>
+    </hotspots>
+    <media>
+      <image fov="22.549" rotx="0.000" width="858" clickmode="0" pan="-170.260" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="3.360" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="14.037" rotx="0.000" width="678" clickmode="0" pan="89.030" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="0.640" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="30.000" rotx="0.000" width="421" clickmode="0" pan="33.730" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="-25.960" height="411" rotz="-1.000">
+        <source url="media/A4.1.Iglesia.png"/>
+      </image>
+      <image fov="20.555" rotx="0.000" width="1375" clickmode="0" pan="134.020" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-17.610" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="75.450" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="46.410">
+        <source url="media/A04. la_monja_gitana.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node44">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="1.6" levelingroll="-0.6" overlap="1" height="1344" leveltileurl="tiles/node44/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="315" fovmode="0">
+      <start fov="120" pan="9.98" projection="4" tilt="1.9"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="19/04/2018 13:37" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="1.66" url="{node45}" id="Point01" tilt="2.18" title="Entrar" target=""/>
+      <hotspot description="" skinid="ht_node" pan="-83.19" url="{node46}" id="Point03" tilt="5.19" title="Ir a Huerta San Vicente" target="-1.8/1.1/102.0"/>
+      <hotspot description="" skinid="ht_node" pan="99.81" url="{node69}" id="Point04" tilt="-2.29" title="Volver a Iglesia" target="3.4/1.5/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="-152.28" url="{node1}" id="Point02" tilt="-18.12" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="32.489" rotx="-11.000" width="646" clickmode="0" pan="43.520" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-55.610" height="289" rotz="19.000">
+        <source url="media/A5.1. Valderrubio.png"/>
+      </image>
+      <image fov="8.604" rotx="0.000" width="630" clickmode="0" pan="1.900" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-5.330" height="630" rotz="0.000">
+        <source url="media/flecha intro.png"/>
+      </image>
+      <image fov="12.960" rotx="0.000" width="678" clickmode="0" pan="99.530" handcursor="0" roty="6.000" id="Element03" stretch="1.000" tilt="-7.710" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="19.769" rotx="0.000" width="858" clickmode="0" pan="-83.440" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-3.390" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="13.989" rotx="-12.000" width="1375" clickmode="0" pan="-153.060" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-22.730" height="566" rotz="5.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="74.880" pansize="10.000" id="Element01" tiltsize="10.000" loop="1" tilt="22.520">
+        <source url="media/A05. cancion_del_jinete.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node45">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="1.5" levelingroll="-0.5" overlap="1" height="1344" leveltileurl="tiles/node45/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="337.5" fovmode="0">
+      <start fov="102.6" pan="45.73" projection="4" tilt="6.24"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="19/04/2018 13:08" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-50.81" url="{node46}" id="Point01" tilt="0.52" title="Ir a Huerta San Vicente" target="-1.8/1.1/102.0"/>
+      <hotspot description="" skinid="ht_node" pan="-127.26" url="{node44}" id="Point04" tilt="2.72" title="Salir de la casa" target="10.0/1.9/120.0"/>
+    </hotspots>
+    <media>
+      <image fov="29.164" rotx="16.000" width="458" clickmode="0" pan="18.710" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="40.180" height="155" rotz="15.000">
+        <source url="media/A6.3.Hab.Valderrubio.png"/>
+      </image>
+      <image fov="33.824" rotx="12.000" width="561" clickmode="0" pan="496.820" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="39.150" height="126" rotz="-6.000">
+        <source url="media/A6.1.Hab.Valderrubio.png"/>
+      </image>
+      <image fov="13.296" rotx="-7.000" width="271" clickmode="0" pan="-91.260" handcursor="0" roty="1.000" id="Element03" stretch="1.000" tilt="24.710" height="301" rotz="8.000">
+        <source url="media/A6.2.Hab.Valderrubio.png"/>
+      </image>
+      <image fov="17.287" rotx="0.000" width="678" clickmode="0" pan="-128.640" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-5.670" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="23.332" rotx="0.000" width="858" clickmode="0" pan="-50.820" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-5.270" height="335" rotz="3.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="133.820" pansize="10.000" id="Element04" tiltsize="10.000" loop="1" tilt="8.000">
+        <source url="media/A06. Poema Verde que te quiero Verde.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node46">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="1.6" levelingroll="-0.6" overlap="1" height="1344" leveltileurl="tiles/node46/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="202.5" fovmode="0">
+      <start fov="102" pan="-1.81" projection="4" tilt="1.08"/>
+      <flyin fov="120" pan="0.22" projection="4" tilt="6"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.171406" description="" customnodeid="" author="" datetime="22/04/2018 10:55" comment="" longitude="-3.608078" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-87.13" url="{node48}" id="Point02" tilt="0.27" title="Ir a Instituto Padre Suárez" target="-3.0/9.8/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="91.84" url="{node44}" id="Point03" tilt="-5.23" title="Volver a Casa Valderrubio" target="10.0/1.9/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="-126.49" url="{node1}" id="Point04" tilt="-8.11" title="Volver a presentación" target=""/>
+      <hotspot description="" skinid="ht_node" pan="1.77" url="{node47}" id="Point01" tilt="6.53" title="Entrar" target="-35.3/-10.1/120.0"/>
+    </hotspots>
+    <media>
+      <image fov="19.302" rotx="0.000" width="300" clickmode="0" pan="-59.080" handcursor="0" roty="-2.000" id="Element04" stretch="1.000" tilt="-6.520" height="401" rotz="0.000">
+        <source url="media/A7.3.Huerta.jpg"/>
+      </image>
+      <image fov="36.283" rotx="0.000" width="508" clickmode="0" pan="140.390" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="5.700" height="334" rotz="0.000">
+        <source url="media/A7.2.Huerta.jpg"/>
+      </image>
+      <image fov="31.419" rotx="18.000" width="295" clickmode="0" pan="-111.030" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-32.850" height="310" rotz="-1.000">
+        <source url="media/A7.4.Huerta.png"/>
+      </image>
+      <image fov="30.000" rotx="-8.000" width="261" clickmode="0" pan="38.920" handcursor="0" roty="16.000" id="Element01" stretch="1.000" tilt="-55.040" height="251" rotz="29.000">
+        <source url="media/A7.1.Huerta.png"/>
+      </image>
+      <image fov="9.113" rotx="0.000" width="630" clickmode="0" pan="2.060" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-1.750" height="630" rotz="0.000">
+        <source url="media/flecha intro.png"/>
+      </image>
+      <image fov="27.770" rotx="0.000" width="858" clickmode="0" pan="-86.290" handcursor="0" roty="0.000" id="Element07" stretch="1.000" tilt="-6.310" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="13.713" rotx="0.000" width="678" clickmode="0" pan="91.370" handcursor="0" roty="0.000" id="Element08" stretch="1.000" tilt="-9.800" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="18.238" rotx="0.000" width="1375" clickmode="0" pan="-126.630" handcursor="0" roty="0.000" id="Element09" stretch="1.000" tilt="-13.060" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-108.340" pansize="10.000" id="Element06" tiltsize="10.000" loop="1" tilt="6.790">
+        <source url="media/A07. preciosa_y_el_aire.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node47">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-2.5" levelingroll="1.2" overlap="1" height="1344" leveltileurl="tiles/node47/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="135" fovmode="0">
+      <start fov="120" pan="31.59" projection="4" tilt="-2.74"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="21/04/2018 16:28" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="45.23" url="{node46}" id="Point01" tilt="21.55" title="Retroceder" target="-1.8/1.1/102.0"/>
+      <hotspot description="" skinid="ht_node" pan="108.46" url="{node48}" id="Point02" tilt="32.4" title="Adelante" target="-3.0/10.9/120.0"/>
+    </hotspots>
+    <media>
+      <image fov="26.792" rotx="-17.000" width="600" clickmode="0" pan="-163.030" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-16.930" height="896" rotz="0.000">
+        <source url="media/A8. 1. Hab.Huerta.jpg"/>
+      </image>
+      <image fov="22.693" rotx="1.000" width="410" clickmode="0" pan="157.400" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="-12.480" height="636" rotz="0.000">
+        <source url="media/A8.2. Hab.Huerta.jpg"/>
+      </image>
+      <image fov="73.722" rotx="0.000" width="414" clickmode="0" pan="-167.840" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="-66.050" height="269" rotz="7.000">
+        <source url="media/A8.1.Hab.Huerta.png"/>
+      </image>
+      <image fov="20.793" rotx="-5.000" width="678" clickmode="0" pan="44.630" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="14.550" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="22.714" rotx="0.000" width="858" clickmode="0" pan="107.650" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="27.220" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-106.380" pansize="10.000" id="Element04" tiltsize="10.000" loop="0" tilt="30.150">
+        <source url="media/A08. Leonardo y la novia. Bodas de Sangre.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node48">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="4.2" levelingroll="1.5" overlap="1" height="1344" leveltileurl="tiles/node48/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="112.5" fovmode="0">
+      <start fov="120" pan="-2.97" projection="4" tilt="7.36"/>
+      <flyin fov="120" pan="-2.97" projection="4" tilt="7.36"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.181275" description="" customnodeid="" author="" datetime="30/04/2018 12:22" comment="" longitude="-3.601994" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-93.32" url="{node49}" id="Point01" tilt="1.46" title="Universidad de Granada" target="19.6/5.2/86.0"/>
+      <hotspot description="" skinid="ht_node" pan="79.61" url="{node46}" id="Point03" tilt="6.76" title="Retroceder" target="-2.2/4.0/102.0"/>
+      <hotspot description="" skinid="ht_node" pan="-135.55" url="{node1}" id="Point02" tilt="-21.53" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="18.767" rotx="-7.000" width="236" clickmode="0" pan="48.040" handcursor="0" roty="21.000" id="Element01" stretch="1.000" tilt="-28.490" height="242" rotz="12.000">
+        <source url="media/A9.1.Colegio.png"/>
+      </image>
+      <image fov="28.470" rotx="0.000" width="858" clickmode="0" pan="-93.530" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="-6.040" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="18.090" rotx="0.000" width="678" clickmode="0" pan="76.500" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-1.030" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="11.644" rotx="0.000" width="1375" clickmode="0" pan="-136.560" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-25.490" height="566" rotz="-12.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-77.890" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="31.570">
+        <source url="media/A09. el_lagarto_esta_llorando.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node49">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-0.9" levelingroll="0.3" overlap="1" height="1344" leveltileurl="tiles/node49/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="270" fovmode="0">
+      <start fov="86" pan="19.58" projection="4" tilt="3.76"/>
+      <flyin fov="86" pan="19.58" projection="4" tilt="3.76"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="24/04/2018 09:51" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="103.2" url="{node48}" id="Point03" tilt="0.56" title="Colegio Padre Suárez" target="-1.6/7.8/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="-136.15" url="{node1}" id="Point01" tilt="-9.42" title="Inicio" target="-3.0/-18.6/86.0"/>
+    </hotspots>
+    <media>
+      <image fov="30.000" rotx="32.000" width="282" clickmode="0" pan="-10.030" handcursor="0" roty="-21.000" id="Element01" stretch="1.000" tilt="28.330" height="211" rotz="16.000">
+        <source url="media/A10.1.UGR.png"/>
+      </image>
+      <image fov="90.000" rotx="-32.000" width="1115" clickmode="0" pan="-99.420" handcursor="0" roty="14.000" id="Element03" stretch="1.000" tilt="-40.640" height="169" rotz="12.000">
+        <source url="media/A10.3.UGR.png"/>
+      </image>
+      <image fov="18.920" rotx="0.000" width="678" clickmode="0" pan="102.290" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-6.180" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="17.365" rotx="0.000" width="1375" clickmode="0" pan="-135.950" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-14.170" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="36.350" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="17.730">
+        <source url="media/A10. la_casada_infiel.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node50">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="3.6" levelingroll="-0.2" overlap="1" height="1344" leveltileurl="tiles/node50/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="315" fovmode="0">
+      <start fov="93.9" pan="10.77" projection="4" tilt="24.49"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.176644" description="" customnodeid="" author="" datetime="24/04/2018 09:30" comment="" longitude="-3.600472" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="88.12" url="{node51}" id="Point01" tilt="3.51" title="Una habitación propia" target=""/>
+      <hotspot description="" skinid="ht_node" pan="-95.57" url="{node68}" id="Point02" tilt="8.92" title="Adelante" target="2.6/11.7/86.0"/>
+      <hotspot description="" skinid="ht_node" pan="-141.5" url="{node1}" id="Point03" tilt="-26.5" title="Inicio" target=""/>
+      <hotspot description="" skinid="ht_node" pan="-174.15" url="{node49}" id="Point04" tilt="-3.39" title="Atrás" target="15.2/0.0/86.0"/>
+    </hotspots>
+    <media>
+      <image fov="20.917" rotx="0.000" width="830" clickmode="0" pan="48.980" handcursor="0" roty="16.000" id="Element01" stretch="1.000" tilt="19.970" height="1080" rotz="0.000">
+        <source url="media/B1.2 Romanilla.png"/>
+      </image>
+      <image fov="30.000" rotx="0.000" width="860" clickmode="0" pan="105.100" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-27.260" height="703" rotz="0.000">
+        <source url="media/B1.1 Romanilla.png"/>
+      </image>
+      <image fov="28.000" rotx="0.000" width="858" clickmode="0" pan="-94.950" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="1.840" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="17.000" rotx="0.000" width="678" clickmode="0" pan="-176.090" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-8.620" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="6.160" rotx="0.000" width="630" clickmode="0" pan="88.170" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-0.760" height="630" rotz="0.000">
+        <source url="media/flecha intro.png"/>
+      </image>
+      <image fov="11.822" rotx="0.000" width="1375" clickmode="0" pan="-142.610" handcursor="0" roty="0.000" id="Element07" stretch="1.000" tilt="-29.420" height="566" rotz="-11.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="14.590" pansize="10.000" id="Element03" tiltsize="10.000" loop="1" tilt="7.750">
+        <source url="media/B 01. Oda a Salvador Dali.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node51">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="2.4" levelingroll="0.7" overlap="1" height="1344" leveltileurl="tiles/node51/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="93.9" pan="-30.72" projection="4" tilt="-1.18"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.176539" description="" customnodeid="" author="" datetime="24/04/2018 11:23" comment="" longitude="-3.600892" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-156.21" url="{node50}" id="Point01" tilt="3.63" title="Atrás" target="10.8/24.5/93.9"/>
+      <hotspot description="" skinid="ht_node" pan="100.85" url="{node68}" id="Point02" tilt="2.12" title="Adelante" target="2.2/8.5/86.0"/>
+    </hotspots>
+    <media>
+      <image fov="23.887" rotx="0.000" width="361" clickmode="0" pan="168.950" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-1.090" height="117" rotz="0.000">
+        <source url="media/B2.5.Habitacion Propia.png"/>
+      </image>
+      <image fov="34.755" rotx="0.000" width="421" clickmode="0" pan="-30.380" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="1.860" height="133" rotz="0.000">
+        <source url="media/B2.8.Habitaci¢n Propia.png"/>
+      </image>
+      <image fov="15.341" rotx="-23.000" width="263" clickmode="0" pan="126.690" handcursor="0" roty="9.000" id="Element08" stretch="1.000" tilt="0.330" height="265" rotz="3.000">
+        <source url="media/B2.3.Habitaci¢n Propia.png"/>
+      </image>
+      <image fov="18.719" rotx="-20.000" width="600" clickmode="0" pan="145.360" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="3.810" height="743" rotz="0.000">
+        <source url="media/B2.2.Habitación Propia.jpg"/>
+      </image>
+      <image fov="31.528" rotx="9.000" width="600" clickmode="0" pan="70.700" handcursor="0" roty="10.000" id="Element04" stretch="1.000" tilt="13.700" height="362" rotz="-2.000">
+        <source url="media/B2.4.Habitación Propia.jpg"/>
+      </image>
+      <image fov="12.000" rotx="0.000" width="678" clickmode="0" pan="-157.140" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="0.000" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="16.230" rotx="9.000" width="858" clickmode="0" pan="100.660" handcursor="0" roty="0.000" id="Element10" stretch="1.000" tilt="-2.000" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="99.050" pansize="10.000" id="Element01" tiltsize="10.000" loop="1" tilt="8.060">
+        <source url="media/B02. La Aurora de NY.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node68">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="2" levelingroll="2.8" overlap="1" height="1344" leveltileurl="tiles/node68/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="135" fovmode="0">
+      <start fov="93.9" pan="-4.46" projection="4" tilt="18.56"/>
+      <flyin fov="166" pan="0" projection="9" tilt="-90"/>
+      <min fov="86" pan="0" tilt="-90"/>
+      <max fov="86" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.172156" description="" customnodeid="" author="" datetime="2/05/2018 15:54" comment="" longitude="-3.597922" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-3.79" url="{node53}" id="Point01" tilt="0.66" title="El Rinconcillo" target="1.3/5.0/93.9"/>
+      <hotspot description="" skinid="ht_node" pan="-75.65" url="{node70}" id="Point02" tilt="2.24" title="Adelante" target="-36.9/8.2/86.0"/>
+      <hotspot description="" skinid="ht_node" pan="87.58" url="{node50}" id="Point03" tilt="12.88" title="Retroceder" target="15.0/24.0/93.9"/>
+      <hotspot description="" skinid="ht_node" pan="-111.97" url="{node1}" id="Point04" tilt="-23.87" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="30.000" rotx="0.000" width="457" clickmode="0" pan="-4.940" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="-43.890" height="350" rotz="-3.000">
+        <source url="media/B3.1.Chikito.png"/>
+      </image>
+      <image fov="5.887" rotx="0.000" width="630" clickmode="0" pan="-3.750" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-5.410" height="630" rotz="0.000">
+        <source url="media/flecha intro.png"/>
+      </image>
+      <image fov="14.000" rotx="0.000" width="678" clickmode="0" pan="86.910" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="6.630" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="20.844" rotx="0.000" width="858" clickmode="0" pan="-76.150" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-3.260" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="15.030" rotx="0.000" width="1375" clickmode="0" pan="-112.640" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-28.080" height="566" rotz="6.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-44.970" pansize="10.000" id="Element03" tiltsize="10.000" loop="1" tilt="5.120">
+        <source url="media/B03. la_sangre_derramada.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node53">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="0.5" levelingroll="-0.6" overlap="1" height="1344" leveltileurl="tiles/node53/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="112.5" fovmode="0">
+      <start fov="93.9" pan="1.32" projection="4" tilt="4.95"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.158828" description="" customnodeid="" author="" datetime="30/04/2018 12:43" comment="" longitude="-3.614339" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-140.21" url="{node70}" id="Point01" tilt="-0.74" title="Adelante" target="-45.4/10.1/86.0"/>
+      <hotspot description="" skinid="ht_node" pan="157.6" url="{node68}" id="Point02" tilt="-2.54" title="Retroceder" target="2.7/18.9/86.0"/>
+    </hotspots>
+    <media>
+      <image fov="36.113" rotx="20.000" width="390" clickmode="0" pan="-6.890" handcursor="0" roty="5.000" id="Element01" stretch="1.000" tilt="-45.210" height="180" rotz="-8.000">
+        <source url="media/B4.1.Chikito Interno.png"/>
+      </image>
+      <image fov="35.943" rotx="5.000" width="468" clickmode="0" pan="29.210" handcursor="0" roty="-5.000" id="Element03" stretch="1.000" tilt="-0.930" height="149" rotz="0.000">
+        <source url="media/B4.2.Ckikito Interno.png"/>
+      </image>
+      <image fov="68.547" rotx="12.000" width="480" clickmode="0" pan="-172.190" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-46.080" height="81" rotz="0.000">
+        <source url="media/B4.3.Chikito Interno.png"/>
+      </image>
+      <image fov="24.396" rotx="0.000" width="1019" clickmode="0" pan="-25.110" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="44.090" height="155" rotz="-5.000">
+        <source url="media/B4.4.Chikito Interno.png"/>
+      </image>
+      <image fov="22.000" rotx="0.000" width="858" clickmode="0" pan="-141.300" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-5.070" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="14.000" rotx="0.000" width="678" clickmode="0" pan="157.160" handcursor="0" roty="0.000" id="Element07" stretch="1.000" tilt="-7.250" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-39.990" pansize="10.000" id="Element04" tiltsize="10.000" loop="1" tilt="-8.000">
+        <source url="media/B04. Audio Dueño Restaurante Chikito.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node70">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="3.1" levelingroll="4.1" overlap="1" height="1344" leveltileurl="tiles/node70/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="102.6" pan="-48.43" projection="4" tilt="10.29"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="86" pan="0" tilt="-90"/>
+      <max fov="86" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.176503" description="" customnodeid="" author="" datetime="24/04/2018 10:37" comment="" longitude="-3.590825" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-112.58" url="{node71}" id="Point01" tilt="0.64" title="Adelante" target="-1.6/0.5/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="150.28" url="{node68}" id="Point02" tilt="-6.27" title="Retroceder" target="1.3/16.0/86.0"/>
+      <hotspot description="" skinid="ht_node" pan="-158.32" url="{node1}" id="Point03" tilt="-18.25" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="24.509" rotx="-18.000" width="283" clickmode="0" pan="101.130" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="-16.110" height="238" rotz="0.000">
+        <source url="media/B5.4.Aljibes.png"/>
+      </image>
+      <image fov="41.275" rotx="0.000" width="548" clickmode="0" pan="-8.940" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-12.900" height="107" rotz="0.000">
+        <source url="media/B5.1.Aljibes.png"/>
+      </image>
+      <image fov="30.000" rotx="-23.000" width="770" clickmode="0" pan="-66.360" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-12.550" height="283" rotz="0.000">
+        <source url="media/B5.6.Aljibes.png"/>
+      </image>
+      <image fov="14.000" rotx="0.000" width="678" clickmode="0" pan="148.030" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-11.970" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="20.446" rotx="0.000" width="858" clickmode="0" pan="-113.520" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-6.580" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="16.634" rotx="0.000" width="1375" clickmode="0" pan="-159.030" handcursor="0" roty="0.000" id="Element07" stretch="1.000" tilt="-25.040" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-63.770" pansize="10.000" id="Element01" tiltsize="10.000" loop="1" tilt="13.620">
+        <source url="media/B05. Flamenco.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node71">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-1.5" levelingroll="1.2" overlap="1" height="1344" leveltileurl="tiles/node71/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="90" fovmode="0">
+      <start fov="120" pan="-1.63" projection="4" tilt="0.52"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.176525" description="" customnodeid="" author="" datetime="30/04/2018 13:33" comment="" longitude="-3.593133" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-95.31" url="{node72}" id="Point01" tilt="3.97" title="Adelante" target="-38.0/0.0/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="-161.72" url="{node70}" id="Point02" tilt="-4.02" title="Retroceder" target="-24.8/-4.7/86.0"/>
+      <hotspot description="" skinid="ht_node" pan="-122.77" url="{node1}" id="Point03" tilt="-12.4" title="inicio" target="-0.6/-21.3/102.6"/>
+    </hotspots>
+    <media>
+      <image fov="24.770" rotx="0.000" width="314" clickmode="0" pan="-26.090" handcursor="0" roty="7.000" id="Element01" stretch="1.000" tilt="-39.060" height="287" rotz="-12.000">
+        <source url="media/B6.2.Iglesia.png"/>
+      </image>
+      <image fov="36.952" rotx="-7.000" width="278" clickmode="0" pan="105.320" handcursor="0" roty="10.000" id="Element02" stretch="1.000" tilt="-22.290" height="310" rotz="4.000">
+        <source url="media/B6.1.Iglesia.png"/>
+      </image>
+      <image fov="20.218" rotx="4.000" width="858" clickmode="0" pan="-96.500" handcursor="0" roty="-2.000" id="Element04" stretch="1.000" tilt="-1.290" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="17.560" rotx="0.000" width="678" clickmode="0" pan="-161.450" handcursor="0" roty="12.000" id="Element05" stretch="1.000" tilt="-11.000" height="279" rotz="8.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="20.376" rotx="0.000" width="1375" clickmode="0" pan="-124.100" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-17.780" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="4.080" pansize="10.000" id="Element03" tiltsize="10.000" loop="1" tilt="16.880">
+        <source url="media/B06. la_guitarra.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node72">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="0.2" levelingroll="-1.1" overlap="1" height="1344" leveltileurl="tiles/node72/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="67.5" fovmode="0">
+      <start fov="120" pan="-3.9" projection="4" tilt="-2.68"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.175056" description="" customnodeid="" author="" datetime="30/04/2018 13:51" comment="" longitude="-3.586489" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="78.7" url="{node71}" id="Point02" tilt="2.6" title="Retroceder" target="-3.0/9.8/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="-91.01" url="{node1}" id="Point03" tilt="-41.16" title="Inicio" target="-1.9/-23.2/86.0"/>
+    </hotspots>
+    <media>
+      <image fov="39.000" rotx="-2.000" width="285" clickmode="0" pan="-35.410" handcursor="0" roty="1.000" id="Element01" stretch="1.000" tilt="2.060" height="239" rotz="0.000">
+        <source url="media/B7.1.Taberna.png"/>
+      </image>
+      <image fov="18.600" rotx="0.000" width="678" clickmode="0" pan="78.100" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="-3.330" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="14.495" rotx="0.000" width="1375" clickmode="0" pan="-91.070" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-44.960" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="22.360" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="4.510">
+        <source url="media/B07. anda_jaleo.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node20">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="1.8" levelingroll="1.1" overlap="1" height="1344" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="270" fovmode="0">
+      <start fov="120" pan="0.45" projection="4" tilt="11.52"/>
+      <flyin fov="95" pan="-9.49" projection="4" tilt="-7.81"/>
+      <min fov="110" pan="0" tilt="-90"/>
+      <max fov="110" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.175875" description="" customnodeid="" author="" datetime="22/4/18 11:34" comment="" longitude="-3.603578" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-90.08" url="{node39}" id="Point01" tilt="7.96" title="Adelante" target="-0.0/-0.9/110.0"/>
+      <hotspot description="" skinid="ht_node" pan="89.03" url="{node1}" id="Point02" tilt="3.74" title="Atrás" target="-0.6/-21.3/102.6"/>
+    </hotspots>
+    <media>
+      <image fov="28.302" rotx="28.000" width="313" clickmode="0" pan="-23.760" handcursor="0" roty="-9.000" id="Element01" stretch="1.000" tilt="-48.420" height="155" rotz="0.000">
+        <source url="media/C1.1. Rosales.png"/>
+      </image>
+      <image fov="52.075" rotx="-14.000" width="421" clickmode="0" pan="-92.400" handcursor="0" roty="6.000" id="Element03" stretch="1.000" tilt="-20.900" height="74" rotz="5.000">
+        <source url="media/C1.2.Rosales.png"/>
+      </image>
+      <image fov="30.000" rotx="-7.000" width="307" clickmode="0" pan="48.210" handcursor="0" roty="52.000" id="Element02" stretch="1.000" tilt="-8.630" height="135" rotz="9.000">
+        <source url="media/C1.3.png"/>
+      </image>
+      <image fov="25.533" rotx="11.000" width="858" clickmode="0" pan="-90.380" handcursor="0" roty="-11.000" id="Element05" stretch="1.000" tilt="-0.860" height="335" rotz="1.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="14.000" rotx="0.000" width="678" clickmode="0" pan="88.810" handcursor="0" roty="15.000" id="Element06" stretch="1.000" tilt="-1.350" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-29.030" pansize="10.000" id="Element04" tiltsize="10.000" loop="1" tilt="33.420">
+        <source url="media/C01. Treinta_años_antes.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node39">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-0.1" levelingroll="1.8" overlap="1" height="1344" leveltileurl="tiles/node39/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="67.5" fovmode="0">
+      <start fov="111" pan="-0.6" projection="4" tilt="6.32"/>
+      <flyin fov="111" pan="-0.6" projection="4" tilt="6.32"/>
+      <min fov="110" pan="0" tilt="-90"/>
+      <max fov="110" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="22/04/2018 11:44" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-85.92" url="{node22}" id="Point01" tilt="3.88" title="Adelante" target="4.3/10.5/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="84.34" url="{node20}" id="Point02" tilt="5.91" title="Retroceder" target="0.4/8.4/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="-106.73" url="{node1}" id="Point03" tilt="-22.06" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="49.313" rotx="17.000" width="343" clickmode="0" pan="-150.590" handcursor="0" roty="16.000" id="Element01" stretch="1.000" tilt="21.520" height="148" rotz="-12.000">
+        <source url="media/C2.1.Gobierno Civil.png"/>
+      </image>
+      <image fov="17.000" rotx="0.000" width="678" clickmode="0" pan="82.110" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="-1.980" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="24.000" rotx="0.000" width="858" clickmode="0" pan="-84.830" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-4.290" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="28.922" rotx="-21.000" width="481" clickmode="0" pan="38.040" handcursor="0" roty="24.000" id="Element05" stretch="1.000" tilt="-34.180" height="358" rotz="19.000">
+        <source url="media/C2.1.Gobierno Civil.png"/>
+      </image>
+      <image fov="21.647" rotx="0.000" width="1375" clickmode="0" pan="-108.650" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-28.300" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-18.160" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="24.730">
+        <source url="media/C02. Gerry_Davis_-_Midnight_Dancing.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node22">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-7.3" levelingroll="-0.5" overlap="1" height="1344" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="337.5" fovmode="0">
+      <start fov="120" pan="5" projection="4" tilt="13.5"/>
+      <flyin fov="95" pan="-9.49" projection="4" tilt="-7.81"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="" description="" customnodeid="" author="" datetime="21/4/18 13:03" comment="" longitude="" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-80.44" url="{node23}" id="Point01" tilt="5.13" title="Barranco de Viznar" target="4.7/0.0/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="164.11" url="{node39}" id="Point02" tilt="1.16" title="Retroceder" target="-2.1/13.6/110.0"/>
+      <hotspot description="" skinid="ht_node" pan="-145.76" url="{node1}" id="Point03" tilt="-22.34" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="31.358" rotx="0.000" width="340" clickmode="0" pan="8.260" handcursor="0" roty="7.000" id="Element01" stretch="1.000" tilt="-45.790" height="170" rotz="3.000">
+        <source url="media/C3.1.Palacio.png"/>
+      </image>
+      <image fov="37.811" rotx="-2.000" width="365" clickmode="0" pan="-47.400" handcursor="0" roty="-53.000" id="Element03" stretch="1.000" tilt="-7.220" height="139" rotz="-9.000">
+        <source url="media/C3.2.Palacio.png"/>
+      </image>
+      <image fov="21.000" rotx="0.000" width="678" clickmode="0" pan="162.620" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-5.940" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="28.290" rotx="0.000" width="858" clickmode="0" pan="-81.010" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="0.080" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="13.960" rotx="0.000" width="1375" clickmode="0" pan="-147.390" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-26.700" height="566" rotz="-21.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="-40.420" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="35.380">
+        <source url="media/C03. Guy_Berrier_-_REVEPARTY.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node23">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="1.7" levelingroll="1.9" overlap="1" height="1344" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="120" pan="28.4" projection="4" tilt="15.81"/>
+      <flyin fov="95" pan="-9.49" projection="4" tilt="-7.81"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="21/4/18 9:49" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-78.89" url="{node37}" id="Point01" tilt="1.29" title="Adelante" target="3.7/-8.1/94.1"/>
+      <hotspot description="" skinid="ht_node" pan="87.34" url="{node22}" id="Point02" tilt="1.43051e-8" title="Retroceder" target="3.2/11.5/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="-147.44" url="{node1}" id="Point03" tilt="-13.42" title="Inicio" target="-0.6/-21.3/102.6"/>
+    </hotspots>
+    <media>
+      <image fov="50.114" rotx="34.000" width="314" clickmode="0" pan="142.530" handcursor="0" roty="11.000" id="Element01" stretch="1.000" tilt="-26.670" height="209" rotz="6.000">
+        <source url="media/C4.1.Barranco Viznar.png"/>
+      </image>
+      <image fov="28.000" rotx="0.000" width="858" clickmode="0" pan="-81.700" handcursor="0" roty="0.000" id="Element03" stretch="1.000" tilt="-5.610" height="335" rotz="0.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="21.820" rotx="0.000" width="678" clickmode="0" pan="85.060" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-4.700" height="279" rotz="0.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="20.838" rotx="-5.000" width="1375" clickmode="0" pan="-147.830" handcursor="0" roty="9.000" id="Element05" stretch="1.000" tilt="-19.770" height="566" rotz="-3.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="37.010" pansize="10.000" id="Element02" tiltsize="10.000" loop="1" tilt="18.760">
+        <source url="media/C04. Moonlight_Sonata, Daniel_Bautista.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node37">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="2.7" levelingroll="-1.9" overlap="1" height="1344" leveltileurl="tiles/node37/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="90" fovmode="0">
+      <start fov="94.1" pan="4.75" projection="4" tilt="-13.41"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="110" pan="0" tilt="-90"/>
+      <max fov="110" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="21/04/2018 10:30" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="-74.31" url="{node25}" id="Point01" tilt="-11.55" title="Adelante" target="8.5/-6.0/120.0"/>
+      <hotspot description="" skinid="ht_node" pan="89.52" url="{node37}" id="Point02" tilt="-13.47" title="Retroceder" target="12.0/-14.0/110.0"/>
+      <hotspot description="" skinid="ht_node" pan="-115.01" url="{node1}" id="Point03" tilt="-22.51" title="Inicio" target=""/>
+    </hotspots>
+    <media>
+      <image fov="46.043" rotx="0.000" width="441" clickmode="0" pan="-530.040" handcursor="0" roty="0.000" id="Element02" stretch="1.000" tilt="-9.790" height="70" rotz="0.000">
+        <source url="media/C5.2. Monolito.png"/>
+      </image>
+      <image fov="38.491" rotx="0.000" width="3389" clickmode="0" pan="-2.010" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="-32.710" height="872" rotz="-4.000">
+        <source url="media/C5.1. Monolito.png"/>
+      </image>
+      <image fov="19.000" rotx="0.000" width="678" clickmode="0" pan="90.360" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-18.070" height="279" rotz="4.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="22.000" rotx="0.000" width="858" clickmode="0" pan="-77.090" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-16.140" height="335" rotz="-2.000">
+        <source url="media/ADELANTE.png"/>
+      </image>
+      <image fov="26.227" rotx="0.000" width="1375" clickmode="0" pan="-116.140" handcursor="0" roty="0.000" id="Element06" stretch="1.000" tilt="-29.700" height="566" rotz="7.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="102.630" pansize="10.000" id="Element03" tiltsize="10.000" loop="1" tilt="20.920">
+        <source url="media/C05. aire nocturno.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node25">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="1344" levelbias="0.400" levelingpitch="-5.1" levelingroll="1" overlap="1" height="1344" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="90" fovmode="0">
+      <start fov="120" pan="6.92" projection="4" tilt="-11.09"/>
+      <flyin fov="95" pan="-9.49" projection="4" tilt="-7.81"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata tags="Lorca360" latitude="37.178308" description="" customnodeid="" author="" datetime="21/4/18 10:09" comment="" longitude="-3.592761" source="" copyright="" info="" title=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" background="1" borderalpha="1" width="180" wordwrap="1" textalpha="1" borderradius="1" textcolor="0x000000" backgroundcolor="0xffffff" border="1" enabled="1" backgroundalpha="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="0" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+      <hotspot description="" skinid="ht_node" pan="90.92" url="{node37}" id="Point01" tilt="-11.64" title="Retroceder" target="7.3/-0.9/110.0"/>
+      <hotspot description="" skinid="ht_node" pan="-87.85" url="{node1}" id="Point02" tilt="-10.85" title="Inicio" target="-3.9/-25.5/102.6"/>
+    </hotspots>
+    <media>
+      <image fov="24.716" rotx="12.000" width="600" clickmode="0" pan="-33.400" handcursor="0" roty="-2.000" id="Element02" stretch="1.000" tilt="-1.490" height="895" rotz="0.000">
+        <source url="media/C6.2.Poema.jpg"/>
+      </image>
+      <image fov="47.178" rotx="0.000" width="333" clickmode="0" pan="14.820" handcursor="0" roty="0.000" id="Element01" stretch="1.000" tilt="-50.980" height="157" rotz="4.000">
+        <source url="media/C6.1. Poema.png"/>
+      </image>
+      <image fov="22.000" rotx="0.000" width="678" clickmode="0" pan="89.630" handcursor="0" roty="0.000" id="Element04" stretch="1.000" tilt="-17.950" height="279" rotz="11.000">
+        <source url="media/ATRAS.png"/>
+      </image>
+      <image fov="14.910" rotx="0.000" width="1375" clickmode="0" pan="-87.770" handcursor="0" roty="0.000" id="Element05" stretch="1.000" tilt="-17.880" height="566" rotz="0.000">
+        <source url="media/INICIO.png"/>
+      </image>
+      <sound level="1.000" mode="2" field="90.000" ambientlevel="0.000" pan="33.680" pansize="10.000" id="Element03" tiltsize="10.000" loop="1" tilt="4.030">
+        <source url="media/C06. mi_nina_se_fue_a_la_mar.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="0" softedge="0" zoomoutpause="0" blendcolor="0x000000" zoomfov="20" zoomout="0" enabled="0" zoomin="0" type="cut" zoomspeed="2"/>
+    <autorotate noderandom="0" startloaded="0" delay="10.00" nodedelay="0.00" useanimation="0" enabled="1" returntohorizon="0.000" speed="0.100"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedmouse="0" hideabout="0" lockedkeyboardzoom="0" rubberband="0" dblclickfullscreen="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" invertcontrol="1" speedwheel="1"/>
+  </panorama>
+</tour>
