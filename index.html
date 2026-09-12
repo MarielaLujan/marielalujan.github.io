@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="es">
 <head>
   <!-- Site made with Mobirise Website Builder v4.6.6, https://mobirise.com -->
   <meta charset="UTF-8">
@@ -7,8 +7,19 @@
   <meta name="generator" content="Mobirise v4.6.6, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
-  <meta name="description" content="">
-  <title>Home</title>
+
+  <!-- SEO / GEO -->
+  <meta name="description" content="Lorca 360°: experiencia inmersiva en realidad virtual que recorre las casas, centros de estudio y espacios culturales de Federico García Lorca en Granada. Proyecto de Mariela Luján Escribano en la Universidad de Granada.">
+  <meta name="keywords" content="Lorca 360, Federico García Lorca, realidad virtual Granada, experiencia inmersiva 360, Universidad de Granada, Mariela Luján">
+  <meta name="author" content="Mariela Luján Escribano">
+  <meta property="og:title" content="Lorca 360° — Ruta inmersiva por la Granada de Federico García Lorca">
+  <meta property="og:description" content="Un recorrido en 360° y realidad virtual por la vida y el legado de Lorca en Granada.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lorca.a360comunicacion.com/">
+  <meta property="og:image" content="assets/images/c6.2.poema-600x895.jpg">
+  <meta property="og:locale" content="es_ES">
+  <title>Lorca 360° — Ruta inmersiva en realidad virtual por la Granada de Federico García Lorca</title>
+
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -16,136 +27,372 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-   <style>
-    #link { color: #FFFF00; } /* CSS link color */
-  </style>
 
-  
+  <style>
+    /* Estilos de texto aplicados sobre el diseño Mobirise */
+    #link { color: #C9A24B; }
+    /* Panel translúcido: da contraste al texto pero deja ver la foto 360 del fondo */
+    .lorca-panel {
+      background: rgba(20, 45, 70, 0.62);
+      -webkit-backdrop-filter: blur(3px);
+      backdrop-filter: blur(3px);
+      padding: 2rem 2.2rem;
+      border-radius: 10px;
+      max-width: 640px;
+      border-left: 3px solid #C9A24B;
+    }
+    .lorca-eyebrow {
+      color: #C9A24B;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+      margin-bottom: 1rem;
+    }
+    .lorca-eyebrow a { color: #C9A24B; }
+    /* Etiquetas-botón */
+    .lorca-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: 0.4rem 0 1.6rem;
+    }
+    .lorca-tag {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      letter-spacing: 0.5px;
+      color: #fff;
+    }
+    .lorca-subtitle {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+      color: #C9A24B;
+    }
+    .lorca-list {
+      padding-left: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.6rem;
+    }
+    .lorca-list li { margin-bottom: 0.5rem; }
+    .lorca-credits {
+      font-size: 0.8rem;
+      opacity: 0.82;
+      line-height: 1.6;
+      margin: 0;
+      padding-top: 1.2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    /* Cuadrícula de prensa: cada medio con su foto y enlace debajo */
+    .press-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.4rem;
+      margin-top: 1rem;
+    }
+    .press-card {
+      display: block;
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 8px;
+      overflow: hidden;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .press-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+    }
+    .press-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+    .press-caption {
+      padding: 0.9rem 1rem;
+      border-top: 3px solid #C9A24B;
+    }
+    .press-caption strong {
+      display: block;
+      color: #225579;
+      font-size: 1rem;
+      margin-bottom: 0.15rem;
+    }
+    .press-caption span {
+      display: block;
+      color: #6b6b6b;
+      font-size: 0.82rem;
+    }
+    .press-card--static { cursor: default; }
+    .press-card--static:hover {
+      transform: none;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    }
+    @media (max-width: 800px) {
+      .press-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 520px) {
+      .press-grid { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
+
+  <!-- ======================= HERO ======================= -->
   <section class="header1 cid-qSXtnhGg0G mbr-parallax-background" id="header1-0">
-
-    
-
-    
-
     <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                    Mariela Luján&nbsp;</h1>
-                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">Lorca360</h3>
-                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">Entra en esta experiencia inmersiva recorriendo los lugares claves del poeta Federico García Lorca en Granada, España.</p>  
-                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="https://lorca.a360comunicacion.com/"><span class="mbri-laptop mbr-iconfont mbr-iconfont-btn"></span>
-                        Ver Lorca360 ordenador</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="https://lorca.a360comunicacion.com/"><span class="mbri-android mbr-iconfont mbr-iconfont-btn"></span>
-                        Ver Lorca 360 Cardboard</a></div>
-            </div>
+      <div class="row justify-content-md-center">
+        <div class="mbr-white col-md-10">
+          <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
+            Lorca 360°&nbsp;
+          </h1>
+          <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
+            La Granada de Federico García Lorca en realidad virtual
+          </h3>
+          <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+            Una experiencia inmersiva que te lleva a recorrer, desde dentro, los lugares que marcaron la vida del poeta en Granada, España.
+          </p>
+          <div class="mbr-section-btn align-center">
+            <a class="btn btn-md btn-primary display-4" href="https://lorca.a360comunicacion.com/">
+              <span class="mbri-laptop mbr-iconfont mbr-iconfont-btn"></span>
+              Ver Lorca 360° en ordenador
+            </a>
+            <a class="btn btn-md btn-white-outline display-4" href="https://lorca.a360comunicacion.com/">
+              <span class="mbri-android mbr-iconfont mbr-iconfont-btn"></span>
+              Ver Lorca 360° en Cardboard
+            </a>
+          </div>
         </div>
+      </div>
     </div>
+  </section>
 
-</section>
+  <section class="engine"><a href="https://mobirise.ws/n">best website creator app</a></section>
 
-<section class="engine"><a href="https://mobirise.ws/n">best website creator app</a></section><section class="header14 cid-qSXubaOu70 mbr-fullscreen mbr-parallax-background" id="header14-1">
-
-    
-
-    
-
+  <!-- ======================= PRESENTACIÓN DEL PROYECTO ======================= -->
+  <section class="header14 cid-qSXubaOu70 mbr-fullscreen mbr-parallax-background" id="header14-1">
     <div class="container">
+      <div class="media-container-row">
+
+        <div class="mbr-figure" style="width: 60%;">
+          <img src="assets/images/c6.2.poema-600x895.jpg" alt="Federico García Lorca, retrato" title="">
+        </div>
+
+        <div class="media-content">
+          <div class="lorca-panel">
+            <p class="lorca-eyebrow mbr-fonts-style">
+              Máster en Nuevos Medios ·
+              <a id="link" href="https://masteres.ugr.es/newmedia_periodismomultimedia/">Universidad de Granada</a> · 2018
+            </p>
+
+            <h2 class="mbr-section-title mbr-white align-left mbr-fonts-style display-2" style="line-height:1.15; margin-bottom:1.2rem;">
+              Ruta inmersiva 360° con Federico García Lorca
+            </h2>
+
+            <p class="mbr-text align-left mbr-white mbr-fonts-style display-7" style="line-height:1.6; margin-bottom:1.2rem;">
+              Una producción en 360° y realidad virtual que recorre las casas, los centros de estudio y los espacios culturales que marcaron la vida de Federico García Lorca en Granada, hasta los últimos lugares que transitó antes de su asesinato en 1936.
+            </p>
+
+            <div class="lorca-tags">
+              <span class="lorca-tag">Cultural</span>
+              <span class="lorca-tag">Educativo</span>
+              <span class="lorca-tag">Turístico</span>
+            </div>
+
+            <h5 class="lorca-subtitle mbr-white">Propósito y alcance</h5>
+            <ul class="lorca-list mbr-white">
+              <li>Llevar el legado del poeta Federico García Lorca a nuevos formatos de interacción digital e inmersión en realidad virtual.</li>
+              <li>Ofrecer una experiencia interactiva única para descubrir Granada a través de la memoria del poeta.</li>
+            </ul>
+
+            <p class="lorca-credits mbr-white">
+              <strong>Autora:</strong> Mariela Luján Escribano<br>
+              <strong>Dirección de investigación:</strong> Prof. Dr. Miguel Gea · Prof. Dr. Juan Ángel Jódar
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= LORCA 360 EN LA PRENSA ======================= -->
+  <section class="features11 cid-qSXz35jsO1 mbr-parallax-background" id="press-360">
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);"></div>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="mbr-blue col-md-10">
+          <h2 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">
+            Lorca 360° en los medios&nbsp;
+          </h2>
+          <p class="mbr-text align-center pb-4 mbr-fonts-style display-7">
+            El proyecto ha tenido repercusión en prensa de España y Perú.
+          </p>
+
+          <div class="press-grid">
+
+            <a class="press-card" href="https://www.granadahoy.com/granada/LORCA-grados_0_1278772520.html">
+              <img src="assets/images/Lorca Granada Hoy.jpg" alt="Reseña de Lorca 360 en el periódico Granada Hoy">
+              <div class="press-caption">
+                <strong>Granada Hoy</strong><span>España · Ver noticia</span>
+              </div>
+            </a>
+
+            <a class="press-card" href="https://larepublica.pe/cultural/1314020-poeta-garcia-lorca-360-grados">
+              <img src="assets/images/Lorca La República.jpg" alt="Reseña de Lorca 360 en el diario La República">
+              <div class="press-caption">
+                <strong>La República</strong><span>Perú · Ver noticia</span>
+              </div>
+            </a>
+
+            <a class="press-card" href="https://trome.pe/actualidad/federico-garcia-lorca-periodista-peruana-creo-ruta-virtual-conocer-poeta-espanol-98463">
+              <img src="assets/images/Trome.jpg" alt="Reseña de Lorca 360 en el diario Trome">
+              <div class="press-caption">
+                <strong>Trome</strong><span>Perú · Ver noticia</span>
+              </div>
+            </a>
+
+            <a class="press-card" href="https://www.elpopular.pe/actualidad-policiales/2018-09-08-poeta-garcia-lorca-recorrido-vida-360-grados">
+              <img src="assets/el popular.JPG" alt="Reseña de Lorca 360 en el diario El Popular">
+              <div class="press-caption">
+                <strong>El Popular</strong><span>Perú · Ver noticia</span>
+              </div>
+            </a>
+
+            <a class="press-card" href="http://www.granadadigital.es/un-viaje-en-360-grados-por-la-vida-de-lorca/">
+              <img src="assets/images/Granada digital 4.JPG" alt="Reseña de Lorca 360 en Granada Digital">
+              <div class="press-caption">
+                <strong>Granada Digital</strong><span>España · Ver noticia</span>
+              </div>
+            </a>
+
+            <div class="press-card press-card--static">
+              <img src="assets/images/Consulado ok.JPG" alt="Reconocimiento del Consulado de Perú en Sevilla">
+              <div class="press-caption">
+                <strong>Consulado de Perú en Sevilla</strong><span>Reconocimiento institucional</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= EXPOSICIÓN PÚBLICA ======================= -->
+  <section class="header1 cid-qSXtnhGg0G mbr-parallax-background" id="exposicion">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="mbr-white col-md-10">
+          <h2 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">
+            Lorca 360° ante el público, en Granada&nbsp;
+          </h2>
+          <p class="mbr-text align-center pb-4 mbr-fonts-style display-7">
+            Momentos de la presentación pública del proyecto en Granada, España.
+          </p>
+
+          <div class="row justify-content-md-center">
+            <div class="mbr-figure" style="width: 50%;">
+              <img src="assets/images/PUBLICO 1.jpg" alt="Público probando la experiencia Lorca 360 en Granada" title="">
+            </div>
+            <div class="mbr-figure" style="width: 50%;">
+              <img src="assets/images/PUBLICO 2.jpg" alt="Asistentes en la exposición pública de Lorca 360" title="">
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="mbr-figure" style="width: 50%;">
+              <img src="assets/images/PUBLICO 3.jpg" alt="Visitante con gafas de realidad virtual en Lorca 360" title="">
+            </div>
+            <div class="mbr-figure" style="width: 50%;">
+              <img src="assets/images/PUBLICO 4.jpg" alt="Público en la muestra de Lorca 360 en Granada" title="">
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="mbr-figure" style="width: 50%;">
+              <img src="assets/images/PUBLICO 5.jpg" alt="Asistentes explorando la ruta inmersiva de Lorca" title="">
+            </div>
+            <div class="mbr-figure" style="width: 50%;">
+              <img src="assets/images/PUBLICO 6.jpg" alt="Presentación de Lorca 360 al público en Granada" title="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= AUTORA ======================= -->
+  <section class="features11 cid-qSXz35jsO1b mbr-parallax-background" id="autora">
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);"></div>
+    <div class="container">
+      <div class="col-md-12">
         <div class="media-container-row">
-
-            <div class="mbr-figure" style="width: 60%;">
-                <img src="assets/images/c6.2.poema-600x895.jpg" alt="Lorca" title="">
+          <div class="mbr-figure" style="width: 50%;">
+            <img src="assets/images/marielav-952x1300.jpg" alt="Mariela Luján Escribano, directora de A360 Comunicación" title="">
+          </div>
+          <div class="align-left aside-content">
+            <h2 class="mbr-title pt-2 mbr-fonts-style display-2">Mariela Luján Escribano</h2>
+            <div class="mbr-section-text">
+              <p class="mbr-text mb-5 pt-3 mbr-light">
+                Periodista y directora de A360 Comunicación.<br><br>
+                <span class="mbri-paper-plane"></span> <a href="https://www.a360comunicacion.com">a360comunicacion.com</a><br>
+                <span class="mbri-paper-plane"></span> <a href="mailto:hola@a360comunicacion.com">hola@a360comunicacion.com</a>
+              </p>
             </div>
 
-            <div class="media-content">
-                <h2 class="mbr-section-title pb-5 mbr-white align-left  mbr-fonts-style display-5"> </p><strong></p><p>
-              <strong><a id="link" href="https://masteres.ugr.es/newmedia_periodismomultimedia/"> Universidad de Granada</a></strong><br> <br><strong>Ruta Inmersiva 360º con Federico García Lorca<br> 
-                <div class="mbr-section-text  pb-3 ">
-                 <p class="mbr-text align-left mbr-white mbr-fonts-style display-7"><br><strong>Resumen:</strong>&nbsp;Producción inmersiva 360 y en realidad virtual que muestra las casas, centros de estudios y espacios culturales de Federico García Lorca en Granada; así como, los últimos lugares que habría recorrido antes de ser asesinado en 1936.<br> <br><strong>Enfoque del proyecto:</strong>&nbsp;Cultural, educativo, turístico.<br><br><strong>Objetivos:</strong><br>- Llevar el legado del poeta Federico García Lorca a un formato aún no explorado como es la realidad virtual.<br>- Proponer una nueva forma de conocer Granada a través de un recorrido virtual por la vida y legado de Lorca. <p class="mbr-text align-left mbr-white mbr-fonts-style display-7"><br><strong>Tutores de investigación y proyecto: Prof. Dr. Miguel Gea / Prof. Dr. Juan Ángel Jódar <br>
-
-                       
-                    </p>
+            <div class="card p-3 pr-3">
+              <div class="media">
+                <div class="align-self-center card-img pb-3">
+                  <span class="mbr-iconfont mbri-camera"></span>
                 </div>
-
-                
+                <div class="media-body">
+                  <h4 class="card-title mbr-fonts-style display-7">
+                    Licenciada en Comunicación Social y Periodismo por la Universidad Nacional Mayor de San Marcos (Perú).
+                  </h4>
+                </div>
+              </div>
             </div>
+
+            <div class="card p-3 pr-3">
+              <div class="media">
+                <div class="align-self-center card-img pb-3">
+                  <span class="mbr-iconfont mbri-desktop"></span>
+                </div>
+                <div class="media-body">
+                  <h4 class="card-title mbr-fonts-style display-7">
+                    Máster en Nuevos Medios Interactivos y Periodismo Multimedia por la Universidad de Granada, España (2018).
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="card p-3 pr-3">
+              <div class="media">
+                <div class="align-self-center card-img pb-3">
+                  <span class="mbr-iconfont mbri-contact-form"></span>
+                </div>
+                <div class="media-body">
+                  <h4 class="card-title mbr-fonts-style display-7">
+                    Trayectoria:<br><br>
+                    · Fundadora de la agencia A360 Comunicación (2022–actualidad).<br>
+                    · Coordinadora de branded content en el Grupo El Comercio, Perú (2018–2021).<br>
+                    · Redactora en eldiario.es Andalucía, España (2018).<br>
+                    · Periodista en el Grupo El Comercio, Perú (2013–2017).<br>
+                    · Periodista en el Grupo La República, Perú (2008–2013).
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-</section>
-
-<section class="features11 cid-qSXz35jsO1 mbr-parallax-background" id="features11-5">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);">
+      </div>
     </div>
+  </section>
 
-    <div class="container">   
-        <div class="col-md-12">
-            <div class="media-container-row">
-                <div class="mbr-figure" style="width: 50%;">
-                    <img src="assets/images/marielav-952x1300.jpg" alt="Mobirise" title="">
-                </div>
-                <div class=" align-left aside-content">
-                    <h2 class="mbr-title pt-2 mbr-fonts-style display-2">Mariela Luján Escribano</h2>
-                    <div class="mbr-section-text">
-                        <p class="mbr-text mb-5 pt-3 mbr-light ">Nacionalidad: Peruana <br> 
-                           <br><span class="mbri-paper-plane"></span><a href="https://twitter.com/MarielaLujanE">  @MarielaLujanE Twitter</a><br>
-                          <br><span class="mbri-paper-plane"></span><a href="https://lmlujan.wixsite.com/periodista">  Mariela Luján página web</a><br>
-                          <br><span class="mbri-paper-plane"></span><a> lmlujan@gmail.com / +34 651836897</a><br>
-                    
-                          
-                    </div>
-
-                    <div class="block-content">
-                        
-                    
-                        </div>
-                        
-                        <div class="card p-3 pr-3">
-                            <div class="media">
-                                <div class=" align-self-center card-img pb-3">
-                                    <span class="mbr-iconfont mbri-camera"></span>
-                                </div>     
-                                <div class="media-body">
-                                    <h4 class="card-title mbr-fonts-style display-7">Licenciada en Comunicación Social, periodismo, por la Universidad Nacional Mayor de San Marcos de Perú.</h4>
-                                </div>
-                            </div>                
-
-                           
-                        </div>
-
-                        <div class="card p-3 pr-3">
-                            <div class="media">
-                                <div class="align-self-center card-img pb-3">
-                                    <span class="mbr-iconfont mbri-desktop"></span>
-                                </div>     
-                                <div class="media-body">
-                                    <h4 class="card-title mbr-fonts-style display-7">Máster en Nuevos Medios Interactivos y Periodismo Multimedia por la Universidad de Granada, España (2018)<br></h4>
-                                </div>
-                            </div>                
-                            <div class="card p-3 pr-3">
-                            <div class="media">
-                                <div class=" align-self-center card-img pb-3">
-                                    <span class="mbr-iconfont mbri-contact-form"></span>
-                            </div>     
-                            <div class="media-body">
-                                    <h4 class="card-title mbr-fonts-style display-7"><br>Experiencia Laboral: <br> <br>- Coordinadora de contenidos digitales en el Grupo El Comercio, Perú (2018-2021). <br>- Pasantía periódico eldiario.es Andalucía, España (2018).  <br>- Redactora en el Grupo Periodístico El Comercio, Perú (2013-2017). <br>- Redactora en el Grupo Periodístico La República, Perú (2008-2013)<br></h4>
-                                </div>
-
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </div>          
-</section>
-
- 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
@@ -154,100 +401,6 @@
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
-  
-  
+
 </body>
 </html>
-  <body>
-  <section class="engine"><a href="https://mobirise.ws/n">best website creator app</a></section><section class="header14 cid-qSXubaOu70 mbr-fullscreen mbr-parallax-background" id="header14-1">
-
- <div class="container">
-        
-        <div class="row justify-content-md-center">
-            <div class="mbr-blue col-md-10">
-                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                   Lorca 360 en la prensa&nbsp;</h1>
-               
-              <div class="row justify-content-md-center">
-               <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/Lorca Granada Hoy.jpg" alt="Periódico Granada Hoy" title="">
-            </div>
-            
-                <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/Lorca La República.jpg" alt="Periódico La República" title="">
-                   </div>
-                 
-           
-                <h4 class="card-title mbr-fonts-style display-7"><span class="mbri-paper-plane"></span><a href="https://www.granadahoy.com/granada/LORCA-grados_0_1278772520.html">  PERIÓDICO GRANADA HOY, ESPAÑA. Ver noticia</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                 </h4> 
-         
- <h4 class="card-title mbr-fonts-style display-7"><span class="mbri-paper-plane"></span><a href="https://larepublica.pe/cultural/1314020-poeta-garcia-lorca-360-grados">  DIARIO LA REPÚBLICA, PERÚ. Ver noticia</a><br></h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               
-                  <div class="row justify-content-md-center">
-                <div class="mbr-figure" style="width: 50%;">
-                   <img src="assets/images/Trome.jpg" alt="Periódico Trome" title="">
-            </div>
-                   
-                  <div class="mbr-figure" style="width: 50%;">
-                  <img src="assets/el popular.JPG" alt="Periódico El Popular" title="">
-                     </div>
-                                        
-                <h4 class="card-title mbr-fonts-style display-7"><span class="mbri-paper-plane"></span><a href="https://trome.pe/actualidad/federico-garcia-lorca-periodista-peruana-creo-ruta-virtual-conocer-poeta-espanol-98463">  DIARIO TROME, PERÚ. Ver noticia online</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </h4> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <h4 class="card-title mbr-fonts-style display-7"><span class="mbri-paper-plane"></span><a href="<br><span class="mbri-paper-plane"></span><a href="https://www.elpopular.pe/actualidad-policiales/2018-09-08-poeta-garcia-lorca-recorrido-vida-360-grados">  DIARIO EL POPULAR, PERÚ. Ver noticia online</a><br></h4>
-
- 
-                <div class="row justify-content-md-center">
-                <div class="mbr-figure" style="width: 50%;">
-                   <img src="assets/images/Granada digital 4.JPG" alt="Periódico Granada Digital" title="">
-            </div>
-                  <div class="mbr-figure" style="width: 50%;">
-                   <img src="assets/images/Consulado ok.JPG" alt="Consulado de Perú en Sevilla" title="">
-            </div>
-                <h4 class="card-title mbr-fonts-style display-7"><span class="mbri-paper-plane"></span><a href="http://www.granadadigital.es/un-viaje-en-360-grados-por-la-vida-de-lorca/">  PERIÓDICO GRANADA DIGITAL, ESPAÑA. Ver noticia </a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </h4> 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <h4 class="card-title mbr-fonts-style display-7"<span class="mbri-paper-plane"></span><a href="<br><span class="mbri-paper-plane"></span>  CONSULADO DE PERÚ EN SEVILLA</h4>
-   </div>          
-</section>
-              <body>
-                    <section class="header1 cid-qSXtnhGg0G mbr-parallax-background" id="header1-0">
-<div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                   Exposición pública de Lorca 360 en Granada, España&nbsp;</h1>
-     <div class="container">   
-        <div class="col-md-12">
-           
-
-               
-              <div class="row justify-content-md-center">
-               <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/PUBLICO 1.jpg">
-            </div>
-            
-                <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/PUBLICO 2.jpg" alt="Periódico La República" title="">
-                   </div>
-                  <div class="row justify-content-md-center">
-               <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/PUBLICO 3.jpg">
-            </div>
-            
-                <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/PUBLICO 4.jpg" alt="Periódico La República" title="">
-                   </div>
-                     <div class="row justify-content-md-center">
-               <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/PUBLICO 5.jpg">
-            </div>
-            
-                <div class="mbr-figure" style="width: 50%;">
-                <img src="assets/images/PUBLICO 6.jpg" alt="Periódico La República" title="">
-                   </div>
-
-
-    
-             </div>          
-</section>
