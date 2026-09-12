@@ -30,7 +30,12 @@
 
   <style>
     /* Estilos de texto aplicados sobre el diseño Mobirise */
-    #link { color: #C9A24B; }
+    #link { color: #8FB8D4; }
+    /* Fondo degradado navy de marca para prensa y autora */
+    .press-bg {
+      background: linear-gradient(160deg, #225579 0%, #163a54 55%, #0f2a3e 100%);
+    }
+
     /* Panel translúcido: da contraste al texto pero deja ver la foto 360 del fondo */
     .lorca-panel {
       background: rgba(20, 45, 70, 0.62);
@@ -39,16 +44,16 @@
       padding: 2rem 2.2rem;
       border-radius: 10px;
       max-width: 640px;
-      border-left: 3px solid #C9A24B;
+      border-left: 3px solid #8FB8D4;
     }
     .lorca-eyebrow {
-      color: #C9A24B;
+      color: #8FB8D4;
       letter-spacing: 2px;
       text-transform: uppercase;
       font-size: 0.82rem;
       margin-bottom: 1rem;
     }
-    .lorca-eyebrow a { color: #C9A24B; }
+    .lorca-eyebrow a { color: #8FB8D4; }
     /* Etiquetas-botón */
     .lorca-tags {
       display: flex;
@@ -69,7 +74,7 @@
       font-size: 1.05rem;
       font-weight: 600;
       margin-bottom: 0.6rem;
-      color: #C9A24B;
+      color: #8FB8D4;
     }
     .lorca-list {
       padding-left: 1.1rem;
@@ -107,13 +112,14 @@
     }
     .press-card img {
       width: 100%;
-      height: 180px;
-      object-fit: cover;
+      height: 240px;
+      object-fit: contain;
+      background: #f4f4f4;
       display: block;
     }
     .press-caption {
       padding: 0.9rem 1rem;
-      border-top: 3px solid #C9A24B;
+      border-top: 3px solid #8FB8D4;
     }
     .press-caption strong {
       display: block;
@@ -136,6 +142,89 @@
     }
     @media (max-width: 520px) {
       .press-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Sección autora rediseñada */
+    .author-row {
+      gap: 48px;
+      align-items: flex-start;
+    }
+    .author-photo { width: 40%; }
+    .author-photo img { width: 100%; border-radius: 8px; display: block; }
+    .author-info { flex: 1; }
+    .author-info h2 { margin-bottom: 0.4rem; }
+    .author-role {
+      font-size: 1.05rem;
+      opacity: 0.9;
+      margin-bottom: 1.4rem;
+      font-weight: 400;
+    }
+    .author-line {
+      margin: 0.3rem 0;
+      font-weight: 400;
+      font-size: 0.95rem;
+    }
+    .author-line a { color: #8FB8D4; }
+    .author-block {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 1.1rem 0;
+      border-top: 1px solid rgba(255,255,255,0.15);
+      margin-top: 1.2rem;
+    }
+    .author-block:first-of-type { margin-top: 1.6rem; }
+    .author-ico { font-size: 1.3rem; opacity: 0.7; margin-top: 3px; }
+    .author-block p { margin: 0; font-weight: 400; line-height: 1.55; font-size: 0.95rem; }
+    .author-block-title { font-weight: 600; margin-bottom: 0.4rem !important; color: #8FB8D4; }
+
+    /* Bloque Lorca con Orgullo */
+    .lorca-next {
+      max-width: 720px;
+      margin: 60px auto 0;
+      text-align: center;
+      padding: 2.4rem 2rem;
+      background: rgba(20, 45, 70, 0.55);
+      border-radius: 10px;
+      border: 1px solid rgba(143,184,212,0.35);
+    }
+    .lorca-next-label {
+      color: #8FB8D4;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      margin-bottom: 0.6rem;
+    }
+    .lorca-next-title { color: #fff; font-size: 1.8rem; margin-bottom: 0.8rem; }
+    .lorca-next-text { color: #e0e0e0; line-height: 1.6; margin-bottom: 1.6rem; }
+    .lorca-next-btn {
+      display: inline-block;
+      padding: 0.85rem 2rem;
+      background: #8FB8D4;
+      color: #12233a;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.2s ease;
+    }
+    .lorca-next-btn:hover { background: #a9cbe0; }
+
+    /* Pie de página */
+    .site-footer {
+      position: relative;
+      z-index: 2;
+      margin-top: 60px;
+      padding: 40px 0 30px;
+      border-top: 1px solid rgba(255,255,255,0.15);
+      text-align: center;
+    }
+    .footer-title { color: #8FB8D4; font-size: 1.3rem; font-weight: 600; margin-bottom: 0.6rem; }
+    .footer-text { color: #cfd6dd; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
+    .footer-links { font-size: 0.9rem; }
+    .footer-links a { color: #8FB8D4; text-decoration: none; }
+    @media (max-width: 700px) {
+      .author-row { flex-direction: column; }
+      .author-photo { width: 100%; max-width: 320px; }
     }
   </style>
 </head>
@@ -184,7 +273,6 @@
         <div class="media-content">
           <div class="lorca-panel">
             <p class="lorca-eyebrow mbr-fonts-style">
-              Máster en Nuevos Medios ·
               <a id="link" href="https://masteres.ugr.es/newmedia_periodismomultimedia/">Universidad de Granada</a> · 2018
             </p>
 
@@ -220,8 +308,7 @@
   </section>
 
   <!-- ======================= LORCA 360 EN LA PRENSA ======================= -->
-  <section class="features11 cid-qSXz35jsO1 mbr-parallax-background" id="press-360">
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);"></div>
+  <section class="features11 cid-qSXz35jsO1 press-bg" id="press-360">
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="mbr-blue col-md-10">
@@ -229,7 +316,7 @@
             Lorca 360° en los medios&nbsp;
           </h2>
           <p class="mbr-text align-center pb-4 mbr-fonts-style display-7">
-            El proyecto ha tenido repercusión en prensa de España y Perú.
+            El proyecto tuvo eco en prensa de España y Perú, con reportajes en medios culturales y generalistas de ambos países.
           </p>
 
           <div class="press-grid">
@@ -291,7 +378,7 @@
             Lorca 360° ante el público, en Granada&nbsp;
           </h2>
           <p class="mbr-text align-center pb-4 mbr-fonts-style display-7">
-            Momentos de la presentación pública del proyecto en Granada, España.
+            Instantáneas de la presentación pública de Lorca 360°, donde el público de Granada pudo vivir la experiencia inmersiva de primera mano.
           </p>
 
           <div class="row justify-content-md-center">
@@ -325,72 +412,66 @@
   </section>
 
   <!-- ======================= AUTORA ======================= -->
-  <section class="features11 cid-qSXz35jsO1b mbr-parallax-background" id="autora">
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);"></div>
+  <section class="features11 cid-qSXz35jsO1b press-bg" id="autora">
     <div class="container">
       <div class="col-md-12">
-        <div class="media-container-row">
-          <div class="mbr-figure" style="width: 50%;">
-            <img src="assets/images/marielav-952x1300.jpg" alt="Mariela Luján Escribano, directora de A360 Comunicación" title="">
+        <div class="media-container-row author-row">
+          <div class="mbr-figure author-photo">
+            <img src="assets/images/marielav-952x1300.jpg" alt="Mariela Luján Escribano" title="">
           </div>
-          <div class="align-left aside-content">
+          <div class="align-left aside-content author-info mbr-white">
             <h2 class="mbr-title pt-2 mbr-fonts-style display-2">Mariela Luján Escribano</h2>
-            <div class="mbr-section-text">
-              <p class="mbr-text mb-5 pt-3 mbr-light">
-                Periodista y directora de A360 Comunicación.<br><br>
-                <span class="mbri-paper-plane"></span> <a href="https://www.a360comunicacion.com">a360comunicacion.com</a><br>
-                <span class="mbri-paper-plane"></span> <a href="mailto:hola@a360comunicacion.com">hola@a360comunicacion.com</a>
-              </p>
-            </div>
+            <p class="author-role">Periodista y directora de A360 Comunicación</p>
 
-            <div class="card p-3 pr-3">
-              <div class="media">
-                <div class="align-self-center card-img pb-3">
-                  <span class="mbr-iconfont mbri-camera"></span>
-                </div>
-                <div class="media-body">
-                  <h4 class="card-title mbr-fonts-style display-7">
-                    Licenciada en Comunicación Social y Periodismo por la Universidad Nacional Mayor de San Marcos (Perú).
-                  </h4>
-                </div>
+            <p class="author-line"><span class="mbri-paper-plane"></span> <a href="https://www.a360comunicacion.com">a360comunicacion.com</a></p>
+            <p class="author-line"><span class="mbri-paper-plane"></span> <a href="mailto:hola@a360comunicacion.com">hola@a360comunicacion.com</a></p>
+            <p class="author-line"><span class="mbri-paper-plane"></span> <a href="https://www.instagram.com/universo_lorca360/">@universo_lorca360 en Instagram</a></p>
+
+            <div class="author-block">
+              <span class="mbr-iconfont mbri-camera author-ico"></span>
+              <p>Licenciada en Comunicación Social y Periodismo por la Universidad Nacional Mayor de San Marcos (Perú).</p>
+            </div>
+            <div class="author-block">
+              <span class="mbr-iconfont mbri-desktop author-ico"></span>
+              <p>Máster en Nuevos Medios Interactivos y Periodismo Multimedia por la Universidad de Granada, España (2018).</p>
+            </div>
+            <div class="author-block">
+              <span class="mbr-iconfont mbri-contact-form author-ico"></span>
+              <div>
+                <p class="author-block-title">Trayectoria</p>
+                <p>Fundadora de la agencia A360 Comunicación (2022–actualidad).<br>
+                Coordinadora de branded content en el Grupo El Comercio, Perú (2018–2021).<br>
+                Redactora en eldiario.es Andalucía, España (2018).<br>
+                Periodista en el Grupo El Comercio, Perú (2013–2017).<br>
+                Periodista en el Grupo La República, Perú (2008–2013).</p>
               </div>
             </div>
-
-            <div class="card p-3 pr-3">
-              <div class="media">
-                <div class="align-self-center card-img pb-3">
-                  <span class="mbr-iconfont mbri-desktop"></span>
-                </div>
-                <div class="media-body">
-                  <h4 class="card-title mbr-fonts-style display-7">
-                    Máster en Nuevos Medios Interactivos y Periodismo Multimedia por la Universidad de Granada, España (2018).
-                  </h4>
-                </div>
-              </div>
-            </div>
-
-            <div class="card p-3 pr-3">
-              <div class="media">
-                <div class="align-self-center card-img pb-3">
-                  <span class="mbr-iconfont mbri-contact-form"></span>
-                </div>
-                <div class="media-body">
-                  <h4 class="card-title mbr-fonts-style display-7">
-                    Trayectoria:<br><br>
-                    · Fundadora de la agencia A360 Comunicación (2022–actualidad).<br>
-                    · Coordinadora de branded content en el Grupo El Comercio, Perú (2018–2021).<br>
-                    · Redactora en eldiario.es Andalucía, España (2018).<br>
-                    · Periodista en el Grupo El Comercio, Perú (2013–2017).<br>
-                    · Periodista en el Grupo La República, Perú (2008–2013).
-                  </h4>
-                </div>
-              </div>
-            </div>
-
           </div>
+        </div>
+
+        <!-- Continuación del proyecto -->
+        <div class="lorca-next">
+          <p class="lorca-next-label">La historia continúa</p>
+          <h3 class="lorca-next-title">Lorca con Orgullo</h3>
+          <p class="lorca-next-text">Un documental inmersivo en 360° que da continuidad a Lorca 360°, explorando la memoria del poeta desde una nueva mirada.</p>
+          <a class="lorca-next-btn" href="https://a360comunicacion.com/lorca-con-orgullo-documental-inmersivo-360-granada/">Ver Lorca con Orgullo</a>
         </div>
       </div>
     </div>
+
+    <!-- Pie de página -->
+    <footer class="site-footer">
+      <div class="container">
+        <p class="footer-title">Lorca 360°</p>
+        <p class="footer-text">Ruta inmersiva en 360° y realidad virtual por la Granada de Federico García Lorca.<br>
+        Proyecto de Mariela Luján Escribano · Universidad de Granada, 2018.</p>
+        <p class="footer-links">
+          <a href="https://www.a360comunicacion.com">a360comunicacion.com</a> ·
+          <a href="mailto:hola@a360comunicacion.com">hola@a360comunicacion.com</a> ·
+          <a href="https://www.instagram.com/universo_lorca360/">Instagram</a>
+        </p>
+      </div>
+    </footer>
   </section>
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
